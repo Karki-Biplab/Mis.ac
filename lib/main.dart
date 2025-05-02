@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
       ),
     ),
     _DashboardCard(
-      title: 'Device Controller',
+      title: 'My Devices',
       icon: LucideIcons.zap,
       color: Colors.purple,
       navigateTo: (context) => Navigator.push(

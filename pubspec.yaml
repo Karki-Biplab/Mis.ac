@@ -1,28 +1,30 @@
 name: app_mis_ac
-description: "A new Flutter project."
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+description: "MIS AC Dashboard Application"
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.2
+  sdk: '>=3.7.2 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^6.1.0
-  lucide_icons: ^0.257.0
   cupertino_icons: ^1.0.8
-  http: ^1.3.0
+  google_fonts: ^6.1.0
+  fl_chart: ^0.71.0
   intl: ^0.20.2
-
-
+  http: ^1.3.0
+  flutter_slidable: ^3.0.0 # Add if using slidable widgets
+  provider: ^6.1.1 # Recommended for state management
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  http: ^1.3.0
   flutter_lints: ^5.0.0
+  build_runner: ^2.4.6 # Useful for code generation
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/ # Add if you have any assets

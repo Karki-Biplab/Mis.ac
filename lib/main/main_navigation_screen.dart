@@ -57,8 +57,9 @@ class MainNavigationScreenState extends State<MainNavigationScreen> {
           backgroundColor: Colors.white,
           selectedItemColor: const Color(0xFF00897B),
           unselectedItemColor: Colors.grey[600],
-          selectedLabelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 12),
-          unselectedLabelStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 12),
+          selectedLabelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 11),
+          unselectedLabelStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 11),
+          iconSize: 22, // Reduce icon size
           items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.dashboard),
